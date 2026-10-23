@@ -98,10 +98,16 @@ Ganti `/path/ke/arsip-backup.tar.gz` dengan lokasi arsip yang benar-benar tersed
 - Pengujian dan validasi keamanan lanjutan masih dapat dikembangkan pada checkpoint berikutnya.
 
 ## 11. Kontribusi Anggota
-Isi nama anggota dan kontribusi berdasarkan pekerjaan yang benar-benar dilakukan oleh masing-masing anggota kelompok.
+
+1. **Azahra Cahya Azannah (2510501111):** Pengembangan dan integrasi shell script backup.
+2. **Niken Najla Seconda (2510501126):** Dokumentasi use case, tujuan otomasi, dan petunjuk penggunaan.
+3. **Nazrima Agustyani Hersanda Putri (2510501128):** Penyusunan test case dan dokumentasi hasil pengujian.
+4. **Nabila Putri Purwaningrum (2510501131):** Pemeriksaan validasi input, error handling, dan konfigurasi contoh.
+5. **Syafiqa Leilani Aji (2510501134):** Dokumentasi log, interpretasi hasil pengujian.
 
 ## 12. Repository dan Versi
+
 - Repository: https://github.com/zahr33000-hash/proyek-2-otomasi-linux
 - Branch: `main`
 - Tag checkpoint: `P2-CHECKPOINT-P11-v01`
-- Commit ID: diisi setelah commit dibuat.
+- Commit ID pengumpulan: lihat commit terbaru pada repository GitHub.
