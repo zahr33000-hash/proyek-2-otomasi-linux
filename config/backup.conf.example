@@ -1,0 +1,4 @@
+# Contoh konfigurasi backup Linux
+# Sesuaikan nilainya saat menjalankan script.
+SOURCE_DIR="/home/ubuntu/data"
+BACKUP_DIR="/home/ubuntu/backups"

@@ -1,0 +1,15 @@
+[2026-10-23 19:35:03] [INFO] Backup berhasil: /home/ubuntu/backup-test-output/backup-20261023-193503.tar.gz
+[2026-10-23 19:35:44] [ERROR] Direktori sumber tidak ditemukan.
+[2026-10-23 19:36:00] [ERROR] Tujuan bukan direktori.
+[2026-10-23 19:38:32] [INFO] Backup berhasil: /home/ubuntu/backup-test-output/backup-20261023-193832.tar.gz
+[2026-10-23 19:38:37] [ERROR] Direktori sumber tidak ditemukan.
+[2026-10-23 19:38:44] [ERROR] Tujuan bukan direktori.
+[2026-10-23 19:39:14] [INFO] Backup berhasil: /home/ubuntu/backup-test-output/backup-20261023-193914.tar.gz
+[2026-10-23 19:39:29] [ERROR] Direktori sumber tidak ditemukan.
+[2026-10-23 19:40:27] [INFO] Backup berhasil: /home/ubuntu/backup-test-output/backup-20261023-194027.tar.gz
+[2026-10-23 19:40:27] [ERROR] Direktori sumber tidak ditemukan.
+[2026-10-23 19:40:27] [ERROR] Tujuan bukan direktori.
+[2026-10-23 19:46:58] [INFO] Backup berhasil: /home/ubuntu/backup-test-output/backup-20261023-194658-026945445.tar.gz
+[2026-10-23 19:47:44] [ERROR] Direktori sumber tidak ditemukan.
+[2026-10-23 19:47:44] [ERROR] Tujuan bukan direktori.
+[2026-10-23 19:47:44] [ERROR] Tujuan backup tidak boleh berada di dalam sumber.
