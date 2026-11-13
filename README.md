@@ -111,3 +111,31 @@ Ganti `/path/ke/arsip-backup.tar.gz` dengan lokasi arsip yang benar-benar tersed
 - Branch: `main`
 - Tag checkpoint: `P2-CHECKPOINT-P11-v01`
 - Commit ID pengumpulan: lihat commit terbaru pada repository GitHub.
+
+P12-P13: IMPLEMENTASI CONTAINER
+
+ARSITEKTUR
+Host: Ubuntu VM melalui Multipass.
+Container: menjalankan scripts/backup.sh.
+Input: data/input pada host, dipasang read-only ke /data/input.
+Output: data/output pada host, dipasang ke /data/output.
+Log: logs/backup.log pada host, dipasang ke /app/logs.
+Network: log-backup-net dengan driver bridge.
+
+DOCKER IMAGE
+Base image: Alpine Linux 3.20.
+Nama image: linux-backup:p12-p13.
+Dockerfile digunakan untuk membangun image aplikasi backup.
+
+HASIL PENGUJIAN
+1. Image Docker berhasil dibangun.
+2. Container berhasil menjalankan script backup.
+3. Arsip backup berhasil dibuat dan diperiksa.
+4. Network bridge berhasil dibuat.
+5. Arsip pertama tetap tersedia setelah container dihapus.
+6. Container kedua berhasil membuat arsip backup baru.
+7. Log keberhasilan tersimpan pada host.
+
+PERSISTENSI DATA
+Bind mount menghubungkan direktori input, output, dan log pada host dengan container. Hasil pengujian membuktikan arsip tetap tersedia meskipun container pertama dihapus.
+
